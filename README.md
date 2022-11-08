@@ -28,7 +28,6 @@ Run:
 rails s
 ````
 
-
 👤 **Author**
 
 - Name: **Ajise Toluwase**
