@@ -1,24 +1,51 @@
-# README
+# Blog-App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> A blog website. This is a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.
 
-Things you may want to cover:
+## Image
 
-* Ruby version
+![Coming soon]() 
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby on Rails
 
-* Database creation
+## To get a local copy run the following steps:
+- Copy this link [this link]()
+- Open your terminal or command line
+- Run "git clone Paste [this link]()"
+- Open the folder with your code editor
+- Create a branch to work on
+- Or open the `` file in the dist directory to start coding
 
-* Database initialization
+Run:
+````
+bundle install
+````
 
-* How to run the test suite
+Run:
+````
+rails s
+````
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+👤 **Author**
 
-* ...
+- Name: **Ajise Toluwase**
+- GitHub: [@githubhandle](https://github.com/Whoistolu)
+- Twitter: [@twitterhandle](https://twitter.com/Littletolu)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/toluwase-ajise-9b40411b2/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Whoistolu/blog-app/issues).
+
+
+## Acknowledgements
+Inspired by Mashrur Hossain
+
+## Show your support
+
+Give a ⭐️ if you like this project!
