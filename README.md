@@ -45,7 +45,7 @@ Feel free to check the [issues page](https://github.com/Whoistolu/blog-app/issue
 
 ## Acknowledgements
 Inspired by Mashrur Hossain
-
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mashrur-hossain-65058653/)
 ## Show your support
 
 Give a ⭐️ if you like this project!
