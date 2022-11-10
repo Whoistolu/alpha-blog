@@ -2550,3 +2550,98 @@ Processing by ArticlesController#index as HTML
 Completed 200 OK in 48ms (Views: 42.6ms | ActiveRecord: 9.1ms | Allocations: 8755)
 
 
+Started GET "/articles/new" for ::1 at 2022-11-10 15:42:46 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"new"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:3:in `show'
+Completed 404 Not Found in 29ms (ActiveRecord: 9.8ms | Allocations: 4301)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=new):
+  
+app/controllers/articles_controller.rb:3:in `show'
+Started GET "/articles" for ::1 at 2022-11-10 15:42:56 +0100
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:13
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 786)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 3459)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.4ms | Allocations: 4449)
+
+
+Started GET "/articles/new" for ::1 at 2022-11-10 15:48:44 +0100
+Processing by ArticlesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 103)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 14227)
+Completed 200 OK in 22ms (Views: 20.7ms | Allocations: 15281)
+
+
+Started GET "/articles/new" for ::1 at 2022-11-10 15:54:23 +0100
+Processing by ArticlesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 592)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 3081)
+Completed 200 OK in 21ms (Views: 17.7ms | Allocations: 4102)
+
+
+Started GET "/articles/new" for ::1 at 2022-11-10 16:00:50 +0100
+Processing by ArticlesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (Duration: 26.0ms | Allocations: 5852)
+  Rendered layout layouts/application.html.erb (Duration: 30.8ms | Allocations: 8334)
+Completed 200 OK in 41ms (Views: 34.9ms | Allocations: 9353)
+
+
+Started GET "/articles/new" for ::1 at 2022-11-10 16:02:02 +0100
+Processing by ArticlesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1120)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 3601)
+Completed 200 OK in 21ms (Views: 17.2ms | Allocations: 4620)
+
+
+Started GET "/articles/new" for ::1 at 2022-11-10 16:02:05 +0100
+Processing by ArticlesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 756)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2961)
+Completed 200 OK in 10ms (Views: 8.4ms | Allocations: 3268)
+
+
+Started GET "/articles/new" for ::1 at 2022-11-10 16:02:12 +0100
+Processing by ArticlesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 774)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2979)
+Completed 200 OK in 11ms (Views: 8.5ms | Allocations: 3285)
+
+
+Started GET "/articles/new" for ::1 at 2022-11-10 16:02:13 +0100
+Processing by ArticlesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 756)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2961)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 3267)
+
+
+Started GET "/articles/new" for ::1 at 2022-11-10 16:02:46 +0100
+Processing by ArticlesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1030)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3511)
+Completed 200 OK in 15ms (Views: 13.7ms | Allocations: 4529)
+
+
