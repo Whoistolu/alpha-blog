@@ -2514,3 +2514,39 @@ Processing by ArticlesController#show as HTML
 Completed 200 OK in 12ms (Views: 7.4ms | ActiveRecord: 0.4ms | Allocations: 3171)
 
 
+Started GET "/articles" for ::1 at 2022-11-10 15:14:01 +0100
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 105)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 14100)
+Completed 200 OK in 17ms (Views: 16.2ms | Allocations: 15151)
+
+
+  [1m[36mArticle Load (1.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+Started GET "/articles" for ::1 at 2022-11-10 15:25:13 +0100
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 14236)
+Completed 200 OK in 16ms (Views: 12.2ms | Allocations: 16052)
+
+
+Started GET "/articles" for ::1 at 2022-11-10 15:30:27 +0100
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:13
+  Rendered articles/index.html.erb within layouts/application (Duration: 28.9ms | Allocations: 5078)
+  Rendered layout layouts/application.html.erb (Duration: 38.3ms | Allocations: 7724)
+Completed 200 OK in 48ms (Views: 42.6ms | ActiveRecord: 9.1ms | Allocations: 8755)
+
+
